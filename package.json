@@ -1,7 +1,7 @@
 {
-  "name": "gojs-react-basic",
+  "name": "ocr-for-object-dimention",
   "version": "1.0.1",
-  "description": "An example project demonstrating usage of GoJS and React together",
+  "description": "An example project demonstrating usage of OCR and React together",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
@@ -19,7 +19,9 @@
     "@types/react-dom": "16.9.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-progressbar": "^15.4.1",
     "react-scripts": "^3.4.1",
+    "tesseract.js": "^2.1.1",
     "typescript": "^3.8.3"
   },
   "eslintConfig": {
