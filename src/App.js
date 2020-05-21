@@ -73,6 +73,9 @@ class App extends Component {
     });
   };
 
+  doOCR1 = async () => {
+  };
+
   loadResources = async () => {
     await this.worker1.load();
     await this.worker2.load();
@@ -95,6 +98,7 @@ class App extends Component {
         />{" "}
         <br />
         <button onClick={this.doOCR}>Calculate Dimentions</button>
+        <button onClick={this.doOCR1}>Calculate Dimentions1</button>
         <h4>Width: {this.state.width}</h4>
         <h4>height: {this.state.height}</h4>
         <h4>Text confidence: {this.state.textConfidence}</h4>
