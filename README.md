@@ -1,5 +1,3 @@
-# gojs-react-basic
-
 ## Installation
 
 Start by running npm install to install all necessary dependencies.
